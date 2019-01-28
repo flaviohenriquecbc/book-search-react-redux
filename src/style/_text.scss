@@ -1,0 +1,21 @@
+$text_giant: 36px;
+$text_bigger: 25px;
+$text_big: 18px;
+$text_above-normal: 16px;
+$text_normal: 12px;
+$text_small: 10px;
+
+.text-align_center {
+    text-align: center;
+}
+
+.text-error {
+    padding: 10px;
+    border: 1px solid $color_red;
+    color: $color_red;
+}
+
+.text-back {
+    color: $color_blue;
+    font-size: $text_normal;
+}

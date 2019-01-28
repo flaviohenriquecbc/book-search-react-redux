@@ -1,0 +1,17 @@
+.search-result {
+    min-height: calc(100vh - 250px);
+}
+
+.search-result_content {
+    padding: $padding 0;
+}
+
+.search-result_box {
+    height: 300px;
+    margin-top: $padding;
+}
+
+.search-result_sort {
+    margin-bottom: $padding;
+    text-align: right;
+}

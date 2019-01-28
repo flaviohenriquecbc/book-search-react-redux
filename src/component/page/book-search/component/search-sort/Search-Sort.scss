@@ -1,0 +1,15 @@
+.search-sort_select {
+    margin-left: $padding-half;
+    font-size: $text_normal;
+    height: $padding;
+
+    &:hover,
+    &:focus {
+        outline: none;
+    }
+}
+
+.search-sort_sort-text {
+    font-size: $text_normal;
+    font-weight: bold;
+}

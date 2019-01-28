@@ -1,0 +1,72 @@
+.search-item {
+    & > a {
+        height: 225px;
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 2px;
+        padding: $padding-half;
+        background-color: $color_white;
+        @extend %shadow-box;
+    }
+}
+
+.search-item_image-container {
+    background-color: $color_gray-empty;
+    height: 195px;
+    width: 130px;
+}
+
+.search-item_image {
+    height: 195px;
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.search-item_link {
+    display: flex;
+
+    &:hover {
+        text-decoration: none;
+        color: $color_text_base;
+    }
+}
+
+.search-item_right {
+    flex-grow: 1;
+    padding: $padding-half;
+}
+
+.search-item_title {
+    font-size: $text_big;
+    font-weight: bold;
+    line-height: 18px;
+    max-height: 3em;
+}
+
+.search-item_author {
+    font-size: $text_above-normal;
+    line-height: 20px;
+    max-height: 40px;
+}
+
+.search-item_date {
+    font-size: $text_normal;
+    line-height: 16px;
+    max-height: 2em;
+}
+
+.search-item_excerpt {
+    font-size: $text_normal;
+    line-height: 16px;
+    margin-top: $padding-half;
+    max-height: 4em;
+}
+
+.search-item_title,
+.search-item_author,
+.search-item_date,
+.search-item_excerpt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}

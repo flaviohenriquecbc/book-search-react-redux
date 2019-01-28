@@ -1,0 +1,34 @@
+.pagination {
+    text-align: center;
+    display: inherit;
+
+    & > * {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0 5px;
+        display: inline-block;
+    }
+
+    & > a {
+        color: $color_green;
+    }
+
+    & > div {
+        color: $color_blue;
+    }
+}
+
+.pagination-item_page-o {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.pagination-item_page-number {
+    font-size: $text_normal;
+    font-weight: normal;
+}
+
+.pagination-icon {
+    margin-bottom: 5px;
+}

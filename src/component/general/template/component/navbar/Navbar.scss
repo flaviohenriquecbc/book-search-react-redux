@@ -1,0 +1,17 @@
+.navbar {
+    background-color: $color_green;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_logo {
+    font-size: $text_bigger;
+    color: $color_white;
+    &:hover {
+        text-decoration: none;
+        color: $color_white;
+    }
+}
